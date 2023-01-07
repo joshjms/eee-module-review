@@ -48,14 +48,14 @@ export default function Home() {
             <Navbar />
             <div className="my-[3rem] w-[80%] mx-auto">
                 <div className="flex flex-wrap justify-around">
-                    <div className="w-96">
+                    <div className="w-96 mb-10">
                         <h1 className="text-5xl mb-2">
                             {CourseDetails.course_code}
                         </h1>
                         <h4 className="mb-5">{CourseDetails.name}</h4>
                         <p className="text-sm">{CourseDetails.description}</p>
                     </div>
-                    <div className="w-96 flex flex-wrap gap-3">
+                    <div className="w-96 flex flex-wrap gap-3 mb-10">
                         <div className="bg-gray-100 w-44 h-28 p-3">
                             <h4 className="h-[3.75rem]">Workload</h4>
                             <div className="flex gap-1">{workloadStars}</div>
